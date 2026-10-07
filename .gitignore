@@ -1,0 +1,27 @@
+# Environments and caches
+.venv/
+.envv/
+.recon-env/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+.env*
+
+# Local state and job output
+state/
+jobs/
+output/
+rebuild-*/
+*.log
+
+# Downloaded or generated book content (never commit)
+pages/
+assets/
+combined.html
+*.pdf
